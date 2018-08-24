@@ -73,7 +73,8 @@ app.get('/about',(req,res)=>{
 
 app.get('/project',(req,res)=>{
     res.render('project.hbs',{
-            Title: 'Our Port Folio'
+            Title: 'Our Port Folio',
+            Author : 'Desh'
     });
 })
 // maintenance
