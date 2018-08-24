@@ -70,6 +70,12 @@ app.get('/about',(req,res)=>{
         Author : 'Desh'
     });
 });
+
+app.get('/project',(req,res)=>{
+    res.render('project.hbs',{
+            Title: 'Our Port Folio'
+    });
+})
 // maintenance
 // app.get('/maintenance',(req,res)=>{
 //     res.render('maintenance.hbs',{
